@@ -26,4 +26,3 @@ Things you may want to cover:
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/aeea5fc3113da20be48a/maintainability)](https://codeclimate.com/github/BastG57/Projet-Backend-A2019/maintainability)
 
-https://travis-ci.org/BastG57/Projet-Backend-A2019.svg?branch=master
