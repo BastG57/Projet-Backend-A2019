@@ -52,7 +52,6 @@ group :test do
   gem 'selenium-webdriver'
   gem 'webdrivers', '~> 3.0'
   # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper', '>= 1'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
