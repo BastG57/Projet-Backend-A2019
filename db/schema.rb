@@ -10,3 +10,14 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+ActiveRecord::Schema.define(version: 2019_09_29_091405) do
+
+  create_table "students", force: :cascade do |t|
+    t.string "Name"
+    t.string "Last_name"
+    t.date "birthday"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+end
