@@ -2,7 +2,7 @@ language: ruby
 rvm:
  - 2.3.3
 before_script:
-  - rake db:schema:load
+  - bundle exec rake db:schema:load
 
 
 deploy:
