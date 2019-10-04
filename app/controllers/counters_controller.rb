@@ -1,6 +1,6 @@
 class CountersController < ApplicationController
-  skip_before_action  :verify_authenticity_token, :only => [:update]
   before_action :set_counter, only: [:show, :edit, :update, :destroy]
+  skip_before_action  :verify_authenticity_token, :only => [:update]
 
   # GET /counters
   # GET /counters.json
