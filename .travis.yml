@@ -4,10 +4,4 @@ rvm:
 before_script:
 - bundle exec rake db:schema:load
 - psql -c 'create database travis_ci_test;' -U postgres
-deploy:
-  provider: heroku
-  api_key:
-    secure: WZO1ZHODngXWmrU3UVWJ1Eo6dBSZ/P6KFJN4MDfA8AF27c/Z9w0TUQKI8mblNKEpoo54ZqbIEM7szn/sGHmTzWjnbDBdET3DgxPM0Az41zaZJsKS4uVvCB5ndCkBflOp/IZaEELQmaG446L0FIkKIYpc4BI6P6lkWjdUPBsmS+h46H0aCDMlu23PYbQg+TXc/tiSR9n3m99iWVPrMT5EEWbtB1ds1pQmU73OcNKAbqYO2igQJ3LYIpFbhS/NjcQeQuHlQajs5unE2Lp2eh6DlTpfG8NZN2YdUr9LaOAzqujkLdPW5lOEb7EzPmZxQT6tpCSRee32I0VLk6a5GIYJwmhaxrd8v4779KmISPvvVxkHKInDip72ohoqD7C8xF9wHF7ZKDxvAxg9NswZNAp7Jbp2q2Tn6J2DDSMoZcNNC9C/C0Rjcgys8h6bTOdrMLRhNmVXNBHGJm6onyDtgJBbv3/W2iMKJWye+waq09nO0u4XACC6+BP8JWQOjWOqjZaJwuaf5PYAOUBzaj9CGplYQ6AVcbs8bVgAEyZ4dApNhUlDCEJelT8mSW1gmlO4QTcLCTEyo1sZi9XrnNTpxR0mQlOC/oE6Shr+qmDhOY5FUFrkYVZ5vJkhm/5T2FVfeH7+M8Ge+yeUPb2HeR0/9cmqZ6w63WkR3O9nwxyPn74pc8U=
-  app: afternoon-falls-48486
-services:
-- postgresql
+
