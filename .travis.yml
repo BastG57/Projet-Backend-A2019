@@ -3,5 +3,4 @@ rvm:
 - 2.5.6
 before_script:
 - bundle exec rake db:schema:load
-- psql -c 'create database travis_ci_test;' -U postgres
 
